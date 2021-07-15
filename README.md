@@ -29,7 +29,7 @@ Add the following to your `.bashrc`, `.zshrc`, etc., replacing `/path/to` with
 the path to wherever you git cloned the `writedown` project.
 
 ```bash
-alias le="/path/to/writedown/venv/bin/python3 /path/to/writedown/src/app.py wd"
+alias wd="/path/to/writedown/venv/bin/python3 /path/to/writedown/src/app.py"
 ```
 
 Add a config file at `~/.writedown/config.yaml` with the keys,
